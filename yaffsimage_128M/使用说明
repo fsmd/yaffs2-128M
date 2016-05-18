@@ -1,0 +1,16 @@
+使用说明：该源码包含了生成68M和128M的生成工具。其中yaffs2-128M文件夹内包含的就是mkyaff2simge-128M的源码。
+到utils文件夹里直接make就可以生成可执行文件
+mkyaffs2image mkyaffsimage
+，其中
+mkyaffs2image 就是我们要用到的了，
+为了便于区分，重命名mkyaffs2image为mkyaffs2image-128M
+，并复制到
+/usr/local/bin
+目录里，以后就可以直接执行了。
+执行过程为：
+
+make
+mv mkyaffs2image mkyaffs2image-128M
+cp mkyaffs2image-128M /usr/local/bin
+
+搞定！
